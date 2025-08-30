@@ -1,8 +1,8 @@
+/data/
+/results/
+/mlruns/
 .venv/
 __pycache__/
 *.pyc
-mlruns/
-data/
-results/
 .ipynb_checkpoints/
 .DS_Store
