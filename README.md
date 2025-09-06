@@ -10,3 +10,11 @@ python -m src.data.loader --n 10000 --out data/sample_logs.parquet --anomaly bur
 
 ### Data generated without anomaly
 python -m src.data.loader --n 10000 --out data/sample_logs.parquet --anomaly none
+
+## EDA Notebook: `notebooks/01_eda.ipynb`
+**Why:** Establish a baseline for "normal" log behavior before modeling anomalies.  
+This notebook helps you (a) see latency shape/tails, (b) read p95/p99 directly,  
+(c) understand status-code mix and failure rate, and (d) spot hourly traffic patterns.
+
+**Input data:** `data/sample_logs.parquet`  
+Generate it if missing
